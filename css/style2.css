@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.container{
+    background-color: rgb(87, 209, 170);
+    margin-left: 50px ;
+    margin-right: 50px ;
+    padding: 30px;
+}
+form#frmLogin{
+    background-color: rgb(91, 214, 163);
+    padding: 30px ;
+}
+h3#title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(138, 99, 51);
+
+}
+div.form-group{
+    margin-bottom: 5px;
+    margin-top: 5px ;
+}
+input.form-control{
+    display: block;
+    width: 100%;
+    padding: 2px ;
+}
+input.button{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 3px ;
+} 
