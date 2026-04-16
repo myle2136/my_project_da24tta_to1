@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "vi">
+    <head> 
+        <title>Trang Đăng Ký Thông Tin</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "../css/style3.css">   
+    </head>
+    <body>
+   <div class="registration-wrapper">
+    <h2>Đăng Ký Thành Viên</h2>
+    
+    <form action="#">
+        <div class="form-row">
+            <label>Họ và tên :</label>
+            <input type="text" placeholder="Nhập đầy đủ họ tên..." required>
+        </div>
+
+        <div class="form-row">
+            <label>Ngày sinh :</label>
+            <input type="date" required>
+        </div>
+
+        <div class="form-row">
+            <label>Địa chỉ :</label>
+            <input type="text" placeholder="Thành phố, Quận/Huyện, Số nhà...">
+        </div>
+
+        <div class="form-row">
+            <label>Giới tính :</label>
+            <div class="gender-options">
+                <label><input type="radio" name="gender" value="nam" checked> Nam</label>
+                <label><input type="radio" name="gender" value="nu"> Nữ</label>
+                <label><input type="radio" name="gender" value="khac"> Khác</label>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label>Số điện thoại :</label>
+            <input type="tel" placeholder="09xxxxxxxx" required>
+        </div>
+
+        <div class="form-row">
+            <label>Điểm mạnh :</label>
+            <input type="text" placeholder="Kỹ năng, sở trường của bạn">
+        </div>
+
+        <div class="form-row">
+            <label>Giới thiệu bản thân :</label>
+            <textarea rows="3" placeholder="Mô tả ngắn gọn về bạn..."></textarea>
+        </div>
+
+        <div class="action-btns">
+            <button type="submit" class="btn btn-submit">Xác nhận Đăng ký</button>
+            <button type="reset" class="btn">Nhập lại</button>
+        </div>
+    </form>
+    </div>
+
+    </body>
+</html>
