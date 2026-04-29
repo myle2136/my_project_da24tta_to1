@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>ĐÓNG HỌC PHÍ</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href = "../css/style6.css">
+	</head>
+    <body>
+        <div class="container">
+            <form>
+                <lable>Họ và tên</lable>
+                <input type="text" placeholder="Nhập họ tên">
+
+                <lable>Mã sinh viên</lable>
+                <input type="text" placeholder="Nhập mã sinh viên">
+
+                <lable>Lớp</lable>
+                <input type="text" placeholder="Nhập lớp">
+
+                <lable>Kỳ học</lable>
+                <select>
+                    <option>Kỳ 1</option>
+                    <option>Kỳ 2</option>
+                    <option>Kỳ 3</option>
+                </select>
+
+                <lable>Số tiền cần đóng</lable>
+                <input type="type" placholder="VND">
+
+                <button type="submit">Thanh toán</button>
+            </form>
+
+            <div class="note">Hệ thống đóng học phí trực tuyến TVU.</div>
+            
+        </div>
+    </body>
+</html>

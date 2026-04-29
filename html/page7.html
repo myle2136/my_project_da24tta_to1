@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>	Trang Mới</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href = "../css/style7.css">
+	</head>
+    <body>
+        <script>
+            //Tạo khung ngoài
+            const myDiv=document.createElement("div");
+            myDiv.setAttribute("class","product-item");
+            //Tạo phần chứa ảnh
+            const myDiv1=document.createElement("div");
+            myDiv1.setAttribute("class","product-image");
+
+            const productImg=document.createElement("img");
+            productImg.setAttribute("src","../assets/images/nen1.jpg");
+            productImg.setAttribute("alt","con chó nhỏ ");
+            myDiv1.appendChild(productImg);
+            myDiv.appendChild(myDiv1);
+
+            //Tạo phần thông tin chứa
+            const myDiv2=document.createElement("div");
+            myDiv2.setAttribute("class","product-Info");
+            myDiv.appendChild(myDiv2);
+            //Tạo các đoạn văn
+            const p1=document.createElement("p");
+            p1.textContent="Tên sản phẩm: Con Chó con màu đen";
+
+            const p2=document.createElement("p");
+            p2.textContent="Gía sản phẩm:2.000$";
+
+             const p3=document.createElement("p");
+             p3.textContent="Tình trạng:Còn hàng";
+
+
+            document.body.appendChild(myDiv);
+            //Tạo link
+            const link = document.createElement("a");
+            link.setAttribute("href","#");
+            link.textContent = "Chi Tiết Sản Phẩm" ;
+            // Gắn thành phần vào thông tin 
+            myDiv2.appendChild(p1);
+            myDiv2.appendChild(p2);
+            myDiv2.appendChild(p3);
+            myDiv2.appendChild(link);
+
+            myDiv.appendChild(myDiv1);
+            myDiv.appendChild(myDiv2);
+            document.body.appendChild(myDiv);
+
+
+        </script>
+    </body>
+	
+</html>
